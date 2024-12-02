@@ -5,6 +5,7 @@
     --primary-color: #3A6D8C;
     --secondary-color: #6A9AB0;
     --sec-transparente: #6a9ab0db;
+    --sec-super-transparente: #6a9ab086;
     --highlight-color: #EAD8B1;
 }
 * {
@@ -31,4 +32,10 @@ div.seccion {
 }
 p.card-text {
     color: black;
+}
+
+@media (max-width: 770px) {
+    div.carousel-caption {
+        background-color: var(--sec-super-transparente);
+    }
 }
