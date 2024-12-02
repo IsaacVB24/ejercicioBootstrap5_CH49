@@ -29,3 +29,6 @@ div.seccion {
     border: 1px dashed var(--highlight-color);
     padding: 20px;
 }
+p.card-text {
+    color: black;
+}
